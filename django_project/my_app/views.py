@@ -1,6 +1,4 @@
 from django.shortcuts import render
-from django.http import JsonResponse
-from .models import Matkul, InfoProdi, UserForML
 
 # Create your views here.
 def home_page(request):
